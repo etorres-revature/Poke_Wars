@@ -1,0 +1,46 @@
+main {
+  height: 100vh;
+}
+
+div#pokemon {
+  height: 50%;
+  width: 100%;
+  padding: 75px;
+  background-image: url(./assets/images/background/pokemon/pokemon-logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div#star-wars {
+  height: 50%;
+  width: 100%;
+  padding: 75px;
+  background-image: url(./assets/images/background/star_wars/star-wars-original.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div#poke-chosen,
+div#star-chosen {
+  height: 225px;
+  width: 275px;
+  background-color: transparent;
+}
+
+div#poke-chosen {
+  margin: auto;
+  background-image: url(./assets/images/background/pokemon/squirtle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div#star-chosen {
+  margin: auto;
+  background-image: url(./assets/images/background//star_wars/luke-skywalker.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
